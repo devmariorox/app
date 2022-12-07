@@ -1,0 +1,202 @@
+.navform{
+    display: flex;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #6ec1e4;
+}
+
+.container_principal{
+    display: flex;
+}
+hr{
+    width: 9vw;
+    margin-left: 1vw;
+}
+.menu{
+    height: 100vh;
+    background-color: white;
+}
+.painel{
+    height: 14vh; 
+    width:210PX;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+}
+.container_img{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    height: 30vh;
+}
+.container_emissao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#nota{
+    position: absolute;
+    margin-top: 6vh;
+    height: 40px;
+    
+}
+
+p{
+    margin-bottom: 2vh;
+}
+#logosistema{
+    height: 200px;
+
+}
+.container-sair{
+    display: flex;
+    position: absolute;
+    margin-left: 9vw;
+    
+}
+#sair{
+    display: flex;
+    position: absolute;
+    height: 40px;
+    margin-left: 88vw;
+    margin-top: 1vh;
+   
+}
+h3{
+    margin-left: 88vw;
+    margin-top: 6vh;
+}
+.painel:hover{
+    background-color: aliceblue;
+}
+
+
+/* CSS TELA CADASTRO */
+
+
+.formcadastroprincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.formcadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 80vw;
+    height: 90vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid black;
+    
+}
+#nomecadastro{
+    width: 500px;
+    border-color: #4054b2;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    padding: 5px;
+    width: 400px;
+   
+}
+
+#registrocadastro{
+    width: 200px;
+    border-color: #4054b2;
+    flex-direction: column;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    padding: 5px;
+    width: 400px;
+    
+    
+    
+   
+}
+#Idadecadastro{
+    border-color: #4054b2;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    padding: 5px;
+    width: 400px;
+    
+    
+
+}
+#emailcadastro{
+    width: 500px;
+    border-color: #4054b2;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    padding: 5px;
+    width: 400px;
+    
+}
+#area{
+    resize: none;
+    border-color: #4054b2;
+    width: 500PX;
+    background-color: #fff;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    padding: 5px;
+    width: 400px;
+    
+}
+#buttonatualizar{
+    margin-top: 5vh;
+    width: 15vw;
+    height: 3vh;
+    background-color: green;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: white;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+}
+#enderecocadastro{
+    width: 500px;
+    border-color: #4054b2;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    padding: 5px;
+    width: 400px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding: 35px;
+    
+}
+label{
+    margin-top: 1vh;
+}

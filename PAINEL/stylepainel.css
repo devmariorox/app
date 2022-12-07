@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #6ec1e4;
+}
+
+.container_principal{
+    display: flex;
+}
+hr{
+    width: 9vw;
+    margin-left: 1vw;
+}
+.menu{
+    height: 100vh;
+    background-color: white;
+}
+.painel{
+    height: 14vh; 
+    width:210PX;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+}
+.container_img{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    height: 30vh;
+}
+.container_emissao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#nota{
+    position: absolute;
+    margin-top: 6vh;
+    height: 40px;
+    
+}
+
+p{
+    margin-bottom: 2vh;
+}
+#logosistema{
+    height: 200px;
+
+}
+.container-sair{
+    display: flex;
+    position: absolute;
+    margin-left: 9vw;
+    
+}
+#sair{
+    display: flex;
+    position: absolute;
+    height: 40px;
+    margin-left: 88vw;
+    margin-top: 1vh;
+   
+}
+h3{
+    margin-left: 88vw;
+    margin-top: 6vh;
+}
+.painel:hover{
+    background-color: aliceblue;
+}
+
+
